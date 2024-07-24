@@ -23,15 +23,15 @@
     <div class="hero">
       <nav>
         <h2 class="logo"><span>Coding&Robo</span>tics</h2>
-        <div class="yes">
-          <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Services">Services</a></li>
-            <li><a href="#Contact">Contact</a></li>
-            <li><a href="#footer" class="btn">Subscribe</a></li>
-          </ul>
-        </div>
+
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <ul id="nav-list">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#footer">Subscribe</a></li>
+        </ul>
       </nav>
 
       <div id="Home" class="content">
@@ -55,18 +55,98 @@
     <section id="About" class="about">
       <div class="title"><h2>About Us</h2></div>
       <div class="main">
-        <img src="./clinton/Sonter.jpg" />
+        <img src="./clinton/sonter.jpeg" />
         <div class="about-text">
           <h3>Kaytor Sonter</h3>
           <h5>Developer <span>& Student</span></h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            deleniti enim accusamus. Obcaecati placeat assumenda mollitia
-            distinctio aliquam, perferendis eligendi recusandae adipisci,
-            nesciunt ducimus similique? Aspernatur velit fuga vitae temporibus!
+            Hello, I am Sonter the great👨🏾‍💻, a bright and curious 11-year-old
+            boy. I currently resides in Abuja, Nigeria, where i am nurturing my
+            passion for technology. i have strong interest in coding and
+            robotics, I spend my free time exploring the endless possibilities
+            of innovation and creativity. As i grows and learns, I am poised to
+            make a meaningful impact in the tech world, and my future is
+            certainly bright!
           </p>
           <a
-            href="https://wa.me/+2347039002430?text=Hi Sonter, i am ______; I'd like to learn more about coding & robotics!"
+            href="https://wa.me/+2348039608276?text=Hi Sonter, i am ______; I'd like to learn more about coding & robotics!"
+            target="_blank"
+            class="button"
+            >Let's Talk</a
+          >
+        </div>
+      </div>
+      <div class="main">
+        <img src="./clinton/ama.jpeg" />
+        <div class="about-text">
+          <h3>Amatullah Farouk</h3>
+          <h5>Student <span>& Designer</span></h5>
+          <p>
+            Hello all: I am amatullah, a bright and curious student of NAFOWA
+            Little Angels Nursery and Primary School. I love to code and I am
+            always seeking new challenges. At my leisure i play with my
+            colorcodes, make comic books and yes, I love my cats 🐱
+          </p>
+          <a
+            href="https://wa.me/+2348032214410?text=Hi Amatullah, i am ______; I'd like to learn more about coding & robotics!"
+            target="_blank"
+            class="button"
+            >Let's Talk</a
+          >
+        </div>
+      </div>
+      <div class="main">
+        <img src="./clinton/kamso.jpeg" />
+        <div class="about-text">
+          <h3>Chikamso Obiyo</h3>
+          <h5>Developer <span>& Student</span></h5>
+          <p>
+            My name is Chikamso Gavriel Obiyo and I'm in primary 4B, I am a
+            student and a prospective software developer. I love football and my
+            goal in life is to become the best footballer like Christiano
+            Ronaldo {The Goat}, I also wish to create a website about football
+            ⚽.
+          </p>
+          <a
+            href="https://wa.me/+2347038592468?text=Hi Kamso, i am ______; I'd like to learn more about coding & robotics!"
+            target="_blank"
+            class="button"
+            >Let's Talk</a
+          >
+        </div>
+      </div>
+      <div class="main">
+        <img src="./clinton/josh.jpeg" />
+        <div class="about-text">
+          <h3>Ade-Adebayo Joshua</h3>
+          <h5>Developer <span>& Student</span></h5>
+          <p>
+            I am commited to my studies and inquisitive Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Nemo deleniti enim accusamus.
+            Obcaecati placeat assumenda mollitia distinctio aliquam, perferendis
+            eligendi recusandae adipisci, nesciunt ducimus similique? Aspernatur
+            velit fuga vitae temporibus!
+          </p>
+          <a
+            href="https://wa.me/+2348038428563?text=Hi Joshua, i am ______; I'd like to learn more about coding & robotics!"
+            target="_blank"
+            class="button"
+            >Let's Talk</a
+          >
+        </div>
+      </div>
+      <div class="main">
+        <img src="./clinton/ryan.jpg" />
+        <div class="about-text">
+          <h3>Osaz-Omoruyi Ryan</h3>
+          <h5>Engineering <span>Student</span></h5>
+          <p>
+            Welcome to my page; I am Osaz-Omoruyi Ryan and my instructor call me
+            the wise one.😀 When you think of cool, calm and collected,I hope to
+            cross your minds. I have a passion for coding and robotics.
+          </p>
+          <a
+            href="https://wa.me/+2348037607413?text=Hi Ryan, i am ______; I'd like to learn more about coding & robotics!"
             target="_blank"
             class="button"
             >Let's Talk</a
@@ -166,5 +246,12 @@
       </div>
       <p class="end">Copyright &copy;2024 Sonter.Amatullah👥</p>
     </footer>
+
+    <script>
+      function toggleMenu() {
+        const navList = document.getElementById("nav-list");
+        navList.classList.toggle("show");
+      }
+    </script>
   </body>
 </html>
