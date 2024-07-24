@@ -136,10 +136,10 @@ h3 {
   animation: bounceIn 1s ease-in-out;
 }
 
-h4 {
+h1 {
   color: rgb(8, 8, 230);
-  letter-spacing: 2px;
-  font-size: 20px;
+  /* letter-spacing: 2px;
+  font-size: 20px; */
   animation: bounceIn 1s ease-in-out;
 }
 
