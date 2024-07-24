@@ -62,7 +62,7 @@ nav {
 
 .logo {
   color: white;
-  font-size: 35px;
+  font-size: 30px;
   letter-spacing: 1px;
   cursor: pointer;
 }
@@ -96,7 +96,7 @@ nav ul li a:hover {
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
-  padding: 10px 25px;
+  padding: 10px 20px;
   border-radius: 30px;
   transition: transform 0.4s;
 }
@@ -139,7 +139,7 @@ h4 {
 .newslatter form input:first-child {
   display: inline-block;
   width: 100%;
-  padding: 14px 130px 14px 15px;
+  padding: 14px 7rem 14px 14px;
   border: 2px solid #3e80ea;
   outline: none;
   border-radius: 30px;
@@ -179,7 +179,7 @@ h4 {
 }
 
 .about-text {
-  max-width: 600px;
+  max-width: 45%;
   animation: slideUp 1.5s ease-in-out;
 }
 
@@ -187,16 +187,8 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
   gap: 20px;
-}
-
-.about-text h2 {
-  color: white;
-  font-size: 75px;
-  text-transform: capitalize;
-  margin-bottom: 20px;
-  animation: bounceIn 1s ease-in-out;
 }
 
 .about-text h5 {
@@ -258,7 +250,7 @@ h4 {
   background: #191919;
   border-radius: 20px;
   padding: 20px;
-  width: calc(33.333% - 40px);
+  width: calc(33% - 20px);
   box-sizing: border-box;
   overflow: hidden;
   text-align: center;
@@ -396,4 +388,43 @@ footer p:nth-child(2) {
 
 #heart {
   color: #3e80ea;
+}
+
+@media screen and (max-width: 480px) {
+  .newslatter form input:last-child {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px auto;
+    box-shadow: none;
+  }
+
+  .card {
+    width: calc(100% - 40px);
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .about img,
+  .about-text {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .social a {
+    width: 20px;
+    height: 20px;
+    margin: 13px 3px;
+    font-size: 10px;
+  }
+  .logo h3 h4 {
+    font-size: 10px;
+  }
 }
